@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        .profile-card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 30px auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+        button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1e40af;
+    transform: scale(1.05);
+}
+.contact-btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #1e40af;
+    transform: scale(1.05);
+}
+a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #1e40af;
+    text-decoration: underline;
+}
+* {
+    box-sizing: border-box;
+}
+
+.profile-card {
+    width: 90%;
+    max-width: 600px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .profile-card {
+        width: 100%;
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
+.project {
+    background-color: #f0f7ff;
+    padding: 12px;
+    margin: 12px 0;
+    border-left: 4px solid #2563eb;
+    border-radius: 6px;
+}
+
+.project h3 {
+    color: #1e40af;
+    margin-top: 0;
+}
+.navbar {
+    display: flex;
+    gap: 20px;
+    background-color: #1e40af;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0;
+}
+
+.navbar a:hover {
+    color: #bfdbfe;
+}
+footer {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 12px;
+    border-top: 1px solid #dddddd;
+    color: #555555;
+    font-size: 14px;
+}
+footer {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 12px;
+  border-top: 1px solid #ddd;
+  color: #555;
+  font-size: 14px;
+}
+/* Button Hover Effect */
+button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+/* Project Card Hover Effect */
+.project-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+    </style>
+</head>
+
+<body>
+    
+    <div class="profile-card">
+        <h1>My Personal Profile</h1>
+<nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+</nav>
+        <h2 id="about">About Me</h2>
+        <p>My name is Sumit.</p>
+        <p>I am a B.Tech Computer Engineering student.</p>
+
+        <h2>My Goal</h2>
+        <p>I want to become a Full Stack Developer.</p>
+         <h2 id="skills">My Skills</h2>
+<ul>
+    <li>HTML Basics</li>
+    <li>CSS Basics</li>
+    <li>JavaScript - Learning Soon</li>
+    <h2 id="projects">My Projects</h2>
+
+<div class="project">
+    <h3>Personal Profile Website</h3>
+    <p>My first website using HTML and CSS.</p>
+</div>
+<div class="project-card">
+    <h3>Calculator App</h3>
+    <p>A simple calculator built using HTML, CSS and JavaScript.</p>
+    <a href="calculator/index.html" target="_blank">
+        <button type="button">Open Calculator</button>
+    </a>
+</div>
+
+<div class="project">
+    <h3>Coming Soon</h3>
+    <p>I will add more web development projects here.</p>
+</div>
+</ul>
+<a href="mailto:sumitkrprajapati6453@gmail.com" class="contact-btn">
+    Contact Me
+</a>
+<p>
+    <a href="https://github.com/" target="_blank">My GitHub</a>
+    |
+    <a href="https://www.linkedin.com/" target="_blank">My LinkedIn</a>
+</p>
+<footer>
+    <p>© 2026 Sumit Kumar | My Portfolio</p>
+</footer>
+
+    </div>
+</body>
+</html>
